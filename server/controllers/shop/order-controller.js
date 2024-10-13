@@ -26,8 +26,8 @@ const create_payment_json = {
     payment_method: "paypal",
     },
     redirect_urls: {
-    return_url: '${process.env.CLIENT_BASE_URL}/shop/paypal-return',
-    cancel_url: '${process.env.CLIENT_BASE_URL}/shop/paypal-cancel',
+    return_url: `${process.env.CLIENT_BASE_URL}/shop/paypal-return`,
+    cancel_url: `${process.env.CLIENT_BASE_URL}/shop/paypal-cancel`,
     },
     transactions: [
     {
