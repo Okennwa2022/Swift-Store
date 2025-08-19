@@ -1,2 +1,2 @@
 # E-commerce-portfolio
-Webstack Portfolio
+E-commerce Portfolio
